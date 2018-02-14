@@ -1,0 +1,228 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>M8 wants You!</title>
+  <link rel="canonical" href="index.html">
+
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
+  <script async custom-element="amp-story" src="https://cdn.ampproject.org/v0/amp-story-0.1.js"></script>
+  <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800" rel="stylesheet">
+  <style amp-boilerplate>
+    body {
+      -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+      -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+      -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+      animation: -amp-start 8s steps(1, end) 0s 1 normal both
+    }
+
+    @-webkit-keyframes -amp-start {
+      from {
+        visibility: hidden
+      }
+      to {
+        visibility: visible
+      }
+    }
+
+    @-moz-keyframes -amp-start {
+      from {
+        visibility: hidden
+      }
+      to {
+        visibility: visible
+      }
+    }
+
+    @-ms-keyframes -amp-start {
+      from {
+        visibility: hidden
+      }
+      to {
+        visibility: visible
+      }
+    }
+
+    @-o-keyframes -amp-start {
+      from {
+        visibility: hidden
+      }
+      to {
+        visibility: visible
+      }
+    }
+
+    @keyframes -amp-start {
+      from {
+        visibility: hidden
+      }
+      to {
+        visibility: visible
+      }
+    }
+
+  </style>
+  <noscript>
+    <style amp-boilerplate>
+      body {
+        -webkit-animation: none;
+        -moz-animation: none;
+        -ms-animation: none;
+        animation: none
+      }
+
+    </style>
+  </noscript>
+  <style amp-custom>
+    :root {
+      --white: #FFFFFF;
+      --black: #000000;
+      --purple: #640088;
+    }
+
+    amp-story {
+      font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+      color: var(--white);
+    }
+
+    amp-story-page {
+      background-color: var(--black);
+    }
+
+    #cover h1,
+    #cover p {
+      text-shadow: 0px 0px 1px var(--white);
+      color: var(--black);
+    }
+
+    #cover h1 {
+      font-size: 4rem;
+      font-weight: 800;
+    }
+
+    #cover p {
+      font-size: 2rem;
+      font-weight: 100;
+    }
+
+    .m8-logo {
+      width: 142px;
+      height: 100px;
+    }
+
+    #page1 .chelo {
+      border: 10px solid var(--white);
+      border-radius: 50%;
+    }
+
+    #page2 h2 {
+      font-weight: 100;
+    }
+
+    #page2 ul li {
+      text-shadow: 0px 0px 1px var(--black);
+    }
+
+    #page3 {
+      background-color: var(--purple);
+    }
+
+    amp-story-grid-layer.bottom {
+      align-content: end;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <amp-story standalone bookend-config-src="bookend.json">
+    <amp-story-page id="cover">
+      <amp-story-grid-layer template="fill">
+        <amp-img src="assets/images/cover.jpg" width="720" height="1280" layout="responsive"></amp-img>
+
+      </amp-story-grid-layer>
+      <amp-story-grid-layer template="vertical">
+        <h1 animate-in="fly-in-left">Join Our Selfie!</h1>
+        <p animate-in="fly-in-left">We have careers available in Miami, Florida and Córdoba, Argentina.</p>
+      </amp-story-grid-layer>
+      <amp-story-grid-layer class="bottom">
+        <amp-img class="m8-logo" src="assets/images/m8-logo.png" width="142" height="100" layout="responsive" animate-in="fly-in-left"></amp-img>
+      </amp-story-grid-layer>
+    </amp-story-page>
+
+    <amp-story-page id="page1">
+      <amp-story-grid-layer template="vertical">
+        <h2 animate-in="fly-in-right">Meet Marcelo.</h2>
+        <p animate-in="fly-in-right" animate-in-delay="0.1s">Also known as Chelo, he is a grown man yet still a kid at heart. He can’t eat salt, which is probably why he’s a
+          very sweet guy. Chelo has burned lots of midnight oil growing his ample knowledge of design and production–which
+          might have a lot to do with his baldness.</p>
+
+        <p animate-in="fly-in-right" animate-in-delay="0.2s">He still might not admit if he believes in aliens or not, but somehow he always ends up talking about them over lunch.
+          As a leader and a friend, he is like that credit card ad: priceless.</p>
+
+        <p animate-in="fly-in-right" animate-in-delay="0.3s">If you want to join his design team, we have job openings available. Just e-mail us and we´ll let you know if you
+          pass the Chelo alien detector–he might not admit it, but we know he owns one!</p>
+
+        <amp-img class="chelo" src="assets/images/chelo.gif" width="200" height="200" template="responsive" animate-in="fly-in-bottom"
+          animate-in-delay="0.4s"></amp-img>
+
+      </amp-story-grid-layer>
+    </amp-story-page>
+
+    <amp-story-page id="page2">
+      <amp-story-grid-layer template="fill">
+        <amp-img src="assets/images/office.jpg" width="720" heigth="1280" layout="responsive"></amp-img>
+      </amp-story-grid-layer>
+      <amp-story-grid-layer template="thirds">
+        <div grid-area="upper-third">
+          <h1 animate-in="fly-in-left">Perks</h1>
+          <h2 animate-in="fly-in-left" animate-in-delay="0.2s">There's no place like home but this comes close!</h2>
+        </div>
+
+        <ul grid-area="lower-third" animate-in="fly-in-bottom">
+          <li>Unlimited coffee & snacks</li>
+          <li>Friday breakfast</li>
+          <li>Health Insurance</li>
+          <li>Vacation & Paid Time Off</li>
+          <li>Flexible Schedule</li>
+          <li>Paid Sick Days</li>
+          <li>401(k) Retirement Plan</li>
+          <li>Employee Discounts</li>
+          <li>Office Perks</li>
+        </ul>
+      </amp-story-grid-layer>
+    </amp-story-page>
+
+    <amp-story-page id="page3">
+      <amp-story-grid-layer template="vertical">
+        <h1 animate-in="fly-in-right" animate-in-delay="0.1s">Multi-disciplinary Teams</h1>
+        <p animate-in="fly-in-right" animate-in-delay="0.2s">Culture. Code. Brands. Our teams bring them all together.</p>
+        <amp-carousel layout="responsive" width="300" height="168" type="slides" autoplay delay="2000" loop animate-in="fly-in-right"
+          animate-in-delay="0.3s">
+          <amp-img src="assets/images/rotator-001.jpg" width="300" height="168" layout="responsive"></amp-img>
+          <amp-img src="assets/images/rotator-002.jpg" width="300" height="168" layout="responsive"></amp-img>
+          <amp-img src="assets/images/rotator-003.jpg" width="300" height="168" layout="responsive"></amp-img>
+        </amp-carousel>
+        <ul animate-in="fly-in-right" animate-in-delay="0.4s">
+          <li>Creative</li>
+          <li>Strategy</li>
+          <li>Finance</li>
+          <li>Client Services</li>
+          <li>Technology</li>
+          <li>Production</li>
+          <li>Cookies</li>
+        </ul>
+      </amp-story-grid-layer>
+      <amp-story-grid-layer class="bottom">
+        <amp-img class="m8-logo" src="assets/images/m8-logo.png" width="142" height="100" layout="responsive" animate-in="fly-in-right"
+          animate-in-delay="0.5s"></amp-img>
+      </amp-story-grid-layer>
+    </amp-story-page>
+  </amp-story>
+
+</body>
+
+</html>
